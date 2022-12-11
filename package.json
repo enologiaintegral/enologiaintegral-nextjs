@@ -1,0 +1,40 @@
+{
+  "name": "enologiaintegral-nextjs",
+  "version": "1.0.0",
+  "description": "Enologia Integral Website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "enologia",
+    "integral",
+    "website",
+    "nextjs"
+  ],
+  "author": "Oscar Figueroa",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@mantine/carousel": "^5.5.4",
+    "@mantine/core": "^5.5.4",
+    "@mantine/hooks": "^5.5.4",
+    "@mantine/next": "^5.5.4",
+    "@tabler/icons": "^1.116.1",
+    "embla-carousel-autoplay": "^7.0.3",
+    "embla-carousel-react": "^7.0.3",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.21",
+    "typescript": "4.8.4"
+  }
+}
