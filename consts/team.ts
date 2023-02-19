@@ -7,21 +7,21 @@ interface TeamMember {
 
 const members: TeamMember[] = [
     {
-        name: 'Juan Mendivil',
+        name: 'Pedro Mendivil',
         role: 'Asesor Enológico',
-        imageUrl: '',
-        cvUrl: ''
+        imageUrl: '/img/profile_pedro.jpeg',
+        cvUrl: '/cv/cv_pedro.pdf'
     },
     {
         name: 'Jesús Segovia',
         role: 'Diseñador gráfico',
         imageUrl: '',
-        cvUrl: ''
+        cvUrl: '/cv/cv_jesus.pdf'
     },
     {
         name: 'Daniela Robles',
         role: 'Laboratorista químico',
-        imageUrl: '',
+        imageUrl: '/img/profile_daniela.jpeg',
         cvUrl: '/cv/cv_daniela.pdf'
     },
     {
@@ -33,7 +33,7 @@ const members: TeamMember[] = [
     {
         name: 'Deyci Venegas',
         role: 'Promotora de ventas',
-        imageUrl: '',
+        imageUrl: '/img/profile_deicy.jpeg',
         cvUrl: '/cv/cv_deicy.pdf'
     },
     {
@@ -46,13 +46,13 @@ const members: TeamMember[] = [
         name: 'Víctor Jiménez',
         role: 'Ingeniero agrónomo',
         imageUrl: '',
-        cvUrl: ''
+        cvUrl: '/cv/cv_victor.pdf'
     },
     {
-        name: 'Cristian Redona',
+        name: 'Christian Redona',
         role: 'Técnico',
-        imageUrl: '',
-        cvUrl: ''
+        imageUrl: '/img/profile_christian.jpeg',
+        cvUrl: '/cv/cv_christian.pdf'
     },
     {
         name: 'Oscar Figueroa',

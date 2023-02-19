@@ -3,10 +3,10 @@ import { Carousel } from '@mantine/carousel'
 import { Image } from '@mantine/core'
 
 //Constants
-import type { Customer } from 'consts/customer'
+import type { CustomerSlideSchema } from 'consts/customer'
 
-export default ({customer}: {customer:Customer}): JSX.Element => {
+export default ({data}: {data:CustomerSlideSchema}): JSX.Element => {
     return <Carousel.Slide>
-        <Image height={120} fit='contain' src={customer.logoUrl} alt={customer.name}/>
+        <Image height={120} fit='contain' src={data.logoUrl} alt={data.name}/>
     </Carousel.Slide>
 }

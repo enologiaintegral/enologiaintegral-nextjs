@@ -1,9 +1,9 @@
-interface Customer {
+interface CustomerSlideSchema {
     name: string,
     logoUrl: string,
 }
 
-const customers: Customer[] = [
+const customersSlides: CustomerSlideSchema[] = [
     {
         name: 'Vinícola Amelia',
         logoUrl: '/img//logo/logo_amelia.png'
@@ -63,9 +63,9 @@ const customers: Customer[] = [
 ]
 
 export type {
-    Customer
+    CustomerSlideSchema
 }
 
 export {
-    customers
+    customersSlides
 }
